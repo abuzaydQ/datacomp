@@ -1,0 +1,168 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="row">
+        <div class="col-3">
+                  <div class="social">
+                    <a href="#"><i class="fab fa-facebook-square" style="color: brown;"></i></a>
+                    <a href="#"><i class="fab fa-twitter-square" style="color: brown;"></i></a>
+                    <i class="fas fa-phone-alt" style="color: brown;"></i>+2348138355300
+                    
+                  </div>
+        </div>
+        <div class="col-3">
+
+        </div>
+        <div class="col-3">
+
+        </div>
+        <div class="col-3">
+            <button type="button"><a href="#">login In <i class="fas fa-sign-in-alt"></i></a></button> &nbsp;&nbsp;&nbsp;
+            <button type="button"><a href="#">Sign Up <i class="fas fa-user-plus"></i></a></button>
+        </div>
+    </div>
+        <nav id="menu" class="navbar navbar-expand-md sticky-top">
+          <!-- Brand -->
+          <a class="navbar-brand" href="#"><img src="logo.png" alt="fidelityteller" width="80px" height="80px"></a>
+        
+          <!-- Toggler/collapsibe Button -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <!-- Navbar links -->
+          <div class="collapse navbar-collapse" id="collapsibleNavbar"">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link menu-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link menu-link" href="index.html#service">Service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link menu-link" href="#aboutus">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link menu-link" href="index.html#vendor">Vendor</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link menu-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+            </div>
+        </nav>
+
+        <div class="row">
+            <div class="col-sm-1">
+
+            </div>
+            <div class="col-sm-5" id="signup">
+                <h4>Register</h4>
+                <form action="/action_page.php">
+                    <div class="form-group">
+                        <label for="usr">Name:</label>
+                        <input type="text" class="form-control" id="usr">
+                      </div>
+                      <div class="form-group">
+                        <label for="num">Phone Number:</label>
+                        <input type="number" class="form-control" id="num">
+                      </div>
+                    <div class="form-group">
+                      <label for="email">Email address:</label>
+                      <input type="email" class="form-control" id="email">
+                    </div>
+                    <div class="form-group">
+                      <label for="pwd">Password:</label>
+                      <input type="password" class="form-control" id="pwd">
+                    </div>
+                    <button type="submit" class="btn">Submit</button>
+                  </form>
+                  
+
+            </div>
+            <div class="col-sm-5">
+                <h4>Login</h4>
+                <form action="/action_page.php">
+                    <div class="form-group">
+                      <label for="email">Email address:</label>
+                      <input type="email" class="form-control" id="email">
+                    </div>
+                    <div class="form-group">
+                      <label for="pwd">Password:</label>
+                      <input type="password" class="form-control" id="pwd">
+                    </div>
+                    <div class="form-group form-check">
+                      <label class="form-check-label">
+                        <input class="form-check-input" type="checkbox"> Remember me
+                      </label>
+                    </div>
+                    <button type="submit" class="btn">Submit</button>
+                  </form>
+                  <p><a href="#">Reset your Password</a>&nbsp;|&nbsp;<a href="#signup">Create an account</a></p>
+            </div>
+            <div class="col-sm-1">
+
+            </div>
+        </div>
+        <div class="row" id="aboutus">
+          <div class="col-sm-3">
+            <h1>FIDELITY TELLER</h1>
+            <p>The number 1 bills payment service provider.
+              With Fidelity Teller, paying bills is not just SEAMLESS and FAST, 
+              you also SAVE MASSIVELY every time you pay your bills using FIDELITY TELLER
+              bill payment
+            </p>
+    
+          </div>
+          <div class="col-sm-3">
+            <ul class="info">
+              <li><a href="index.html">Home</a></li>
+              <hr>
+              <li><a href="#">Buy Airtime</a></li>
+              <hr>
+              <li><a href="#">Buy Data</a></li>
+              <hr>
+              <li><a href="#">Pay Electricity</a></li>
+              <hr>
+              <li><a href="#">Pay Tv subscription</a></li>
+              <hr>
+              <li><a href="#aboutus">About</a></li>
+    
+            </ul>
+    
+          </div>
+          <div class="col-sm-3">
+            <h5>Contact Info</h5>
+            <p>ADDRESS:</p>
+            <hr>
+            <p>PHONE:</p>
+            <hr>
+            <p>EMAIL:</p>
+          </div>
+          <div class="col-sm-3">
+            <h6>Trusted by online payment</h6>
+            <i class="fab fa-cc-mastercard"></i>
+            <i class="fab fa-cc-visa"></i>
+    
+          </div>
+        </div>
+        <div class="row" id="footer">
+          <div class="col-sm-12">
+            copyright &copy;2021 fidelityteller. All right reserved
+          </div>
+        </div>
+       
+    
+    <script src="js/jquery.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

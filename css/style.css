@@ -1,0 +1,27 @@
+
+.container-fluid {
+    background-color: rgb(150, 175, 175);
+}
+.row {
+    background-color: rgb(233, 233, 240);
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+ul.nav-tabs {
+    background-color: aquamarine;
+
+
+}
+li.nav-item {
+    display: inline-block;
+    
+    
+}
+li.nav-item a:active {
+    background-color: aquamarine;
+}
+.navbar {
+    background-color: chartreuse;
+}
