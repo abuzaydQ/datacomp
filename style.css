@@ -1,11 +1,13 @@
 :root {
     --main-bg-color: white;
 }
-
-
+body {
+    width: fit-content;
+}
 
 div.row {
     background-color: var(--main-bg-color);
+    width: 1005
 }
 .social i {
     font-size: 25px;
@@ -19,7 +21,7 @@ div.row2 {
     
 }
 
-div.col-3{
+div.col-sm-3 {
     padding: 10px;
 }
 nav {
@@ -85,7 +87,7 @@ button a:hover {
     text-align: left;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.col-12 {
+.col-sm-12 {
     text-align: center;
     background-color: black;
     height: 80px;
@@ -177,6 +179,10 @@ hr {
     background-color: coral;
     color: white;
 }
+/*div.sticky-top {
+    padding: 10px;
+*/
+
 .col-sm-5 {
     padding: 10px;
     margin: 10px;
