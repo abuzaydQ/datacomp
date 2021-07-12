@@ -1,13 +1,13 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
 :root {
     --main-bg-color: white;
-}
-body {
-    width: fit-content;
 }
 
 div.row {
     background-color: var(--main-bg-color);
-    width: 1005
 }
 .social i {
     font-size: 25px;
@@ -40,6 +40,12 @@ nav {
 .navbar-nav a:hover {
     color: lightskyblue;
 }
+.navbar-nav {
+    margin-left: auto;
+}
+.nav-item {
+    margin-left: 20px;
+}
 
 button {
     border: none;
@@ -60,9 +66,6 @@ button a {
 }
 button a:hover {
     text-decoration: none;
-}
-.nav-item {
-    margin-right: 200px;
 }
 #demo {
     padding-top: 10px;
@@ -95,7 +98,7 @@ button a:hover {
     color: white;
 
 }
-.col-12 h3 {
+.col-sm-12 h3 {
     font-weight:normal;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
