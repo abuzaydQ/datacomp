@@ -208,7 +208,7 @@ hr {
 #footer {
     padding: 5px;
     text-align: center;
-    background-color: coral;
+    background-color: var(--brand-color);
     color: white;
 }
 
