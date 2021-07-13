@@ -1,27 +1,240 @@
-
-.container-fluid {
-    background-color: rgb(150, 175, 175);
+*{
+    margin: 0;
+    box-sizing: border-box;
 }
-.row {
-    background-color: rgb(233, 233, 240);
+:root {
+    --main-bg-color: white;
+    --brand-color:brown;
+    --service-color:black;
 }
-.img-fluid {
-    max-width: 100%;
-    height: auto;
+/* for social and login & sign up at row 1 */
+div.row {
+    background-color: var(--main-bg-color);
 }
-ul.nav-tabs {
-    background-color: aquamarine;
-
-
-}
-li.nav-item {
-    display: inline-block;
+.social i {
+    font-size: 25px;
+    padding: 10px;
+    margin-left: 10px;
+    color: var(--brand-color);
     
+}
+.social i:hover{
+    color: var(--brand-color) ;
+}
+div.col-sm-3 {
+    padding: 10px;
+}
+/* Navigation section */
+nav {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    height: fit-content;
+}
+.navbar-toggler-icon {
+    background-color: white;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+.nav-item {
+    margin-left: 20px;
+}
+.dropdown-menu:hover {
+    background-color: var(--service-color);
+    color: var(--main-bg-color);
+    
+
+}
+.navbar-nav a {
+    background-color: var(--service-color);
+    color: var(--main-bg-color);
+}
+.navbar-nav a:hover {
+    background-color: black;
+    color: blue;
+}
+.dropdown-item:focus, .dropdown-item:hover {
+    background-color: var(--main-bg-color) !important;
+}
+.dropdown-menu {
+    background: #000 !important;
+    border: none !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+button {
+    border: none;
+    background-color:var(--brand-color);
+    padding: 8px 12px;
+    margin: 10px;
+    margin-right: 10px;
     
 }
-li.nav-item a:active {
-    background-color: aquamarine;
+button:hover {
+    text-decoration: none;
 }
-.navbar {
-    background-color: chartreuse;
+button a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+button a:hover {
+    text-decoration: none;
+}
+/* Main Interface of business image */
+.col-sm-6 {
+    padding: 15px;
+    height: 500px;
+}
+
+.section {
+
+    margin-top: 100px;
+    padding: 20px;
+    text-align: left;
+    margin-bottom: 80px;
+    
+}
+.section h2 {
+    margin-left: 0px;
+    text-align: left;
+}
+.section p, h4 {
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.section p button {
+    padding: 10px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+/* Buy Aitime and Co */
+.col-sm-12 {
+    text-align: center;
+    background-color: black;
+    padding: 15px;
+    color: white;
+
+}
+.col-sm-12 h3 {
+    font-weight:normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* Service section */
+#service {
+    background-color: var(--service-color);
+}
+.icon {
+    padding: 20px;
+}
+.icon h3 {
+    text-align: center;
+}
+.icon p {
+    margin-left: 10px;
+}
+.ic1 {
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    color: brown;
+}
+/* carousel and Vendor */
+#demo {
+    padding-top: 10px;
+}
+.col-sm-6 {
+    padding: 10px;
+}
+
+.vendor {
+    padding: 10px;
+
+}
+.vendortips h4 {
+    margin-top: 15px;
+    text-align: left;
+}
+.step {
+    list-style-type: disc;
+    padding: 10px;
+    text-align: justify;
+}
+.step li {
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* contact and about */
+#aboutus {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+#aboutus .col-sm-3 {
+    margin-top: 10px;
+    padding: 40px;
+    
+
+}
+#aboutus .col-sm-3 p {
+    text-align: justify;
+}
+.col-sm-3 ul li {
+    list-style-type: none;
+}
+.info li a {
+    text-decoration: none;
+    color: white;
+}
+.col-sm-3 i {
+    font-size: 25px;
+}
+.info a:hover {
+    color: lightskyblue;
+}
+.link  {
+    margin-left: 40px;
+}
+hr {
+    color: white;
+    background-color: white;
+}
+/* footer */
+#footer {
+    padding: 5px;
+    text-align: center;
+    background-color: coral;
+    color: white;
+}
+
+/*  the below are for form in sign up and login in Signup.html page */
+
+.col-sm-5 {
+    padding: 10px;
+    margin: 10px;
+}
+.form-group {
+    padding-top: 20px;
+}
+.col-sm-5 p a {
+    text-decoration: none;
+    color:brown;
+
+}
+.col-sm-5 p a:hover {
+    color: blue;
+}
+form .btn {
+    background-color: brown;
+    color: white;
+    border-radius: 10px;
+}
+form .btn:hover {
+    background-color: coral;
+    color: blue;
 }
